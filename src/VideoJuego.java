@@ -3,14 +3,20 @@ public class VideoJuego {
     private int horasEstimadas;
     private boolean disponible;
     private String genero, compania;
+    private VideoJuego liga;
+
+
 
     public VideoJuego() {
+        liga = null;
         this.titulo = "";
         this.horasEstimadas = 10;
         this.disponible = false;
         this.genero = "";
         this.compania = "";
     }
+
+
 
     public VideoJuego(String titulo, int horasEstimadas) {
         this.titulo = titulo;
@@ -26,6 +32,22 @@ public class VideoJuego {
         this.disponible = false;
         this.genero = genero;
         this.compania = compania;
+    }
+
+    public VideoJuego getLiga() {
+        return liga;
+    }
+
+    public void setLiga(VideoJuego liga) {
+        this.liga = liga;
+    }
+
+    public void entregar() {
+        disponible = false;
+    }
+
+    public void devolver(){
+        disponible = true;
     }
 
 
@@ -45,7 +67,13 @@ public class VideoJuego {
         this.horasEstimadas = horasEstimadas;
     }
 
-    public boolean isDisponible() {
+    public String isDisponible() {
+        String disponible = "";
+        if(this.disponible == true){
+            disponible = "Disponible";
+        }else {
+            disponible = "No Disponible";
+        }
         return disponible;
     }
 
