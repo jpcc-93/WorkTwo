@@ -1,0 +1,15 @@
+Super Mario Bros,10,Acción,Nintendo
+The Legend of Zelda: Ocarina of Time,30,Acción-aventura,Nintendo
+The Witcher 3: Wild Hunt,50,Rol,CD Projekt RED
+Grand Theft Auto V,40,Acción-aventura,Rockstar Games
+Minecraft,100,Sandbox,Mojang
+Red Dead Redemption 2,60,Acción-aventura,Rockstar Games
+Fallout 4,40,Rol,Bethesda Softworks
+Horizon Zero Dawn,30,Acción-aventura,Guerrilla Games
+God of War,20,Acción,Sony Interactive EntertainmentDOTA,15,ROL,UDEMY
+Super Mario Bros.,1985,NES,Plataforma
+DOTA,15,AVENTURA,DEMY
+PRUEBA2,17,ROL,CAPA
+Purbea,14,otro,lalo
+otro,15,hala,prueba
+Vigilante 8,20,Automovilismo,DANT
